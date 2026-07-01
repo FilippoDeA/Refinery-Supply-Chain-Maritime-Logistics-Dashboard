@@ -2,13 +2,16 @@
 
 An economic decision-support dashboard designed to track downstream refinery logistics and market economics. This project automates the extraction of market spot prices and logistics data via Python, models refinery gross margins using DAX, and visualizes dynamic route-profitability metrics across global destination markets.
 
-## 📊 Dashboard Architecture
-*(Click the image below to view the full PDF export)*
-[![Refinery Supply Chain Dashboard](assets/dashboard_preview.png)](assets/dashboard_Export.pdf)
+---
 
-The dashboard provides real-time visibility into netback margins and supply chain economics:
-* **Dynamic Cost Allocation:** Recalculates optimized fuel recipe costs dynamically when filtering by global destination.
-* **Risk vs. Return Evaluation:** Utilizes statistical DAX evaluation contexts to heatmap historical margin volatility against raw profitability, identifying highly unstable shipping routes.
+## 📊 Live Dashboard Demonstration
+*(Watch the dynamic cost allocation and risk heatmapping in action below)*
+
+![Dashboard Demonstration](assets/dashboard_gif.gif)
+
+📄 **[Click here to view or download the high-resolution PDF export](assets/dashboard_Export.pdf)**
+
+---
 
 ## Technical Scope
 
