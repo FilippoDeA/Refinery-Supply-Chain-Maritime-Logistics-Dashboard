@@ -20,8 +20,8 @@ By interfacing a headless DWSIM chemical process simulation with a SciPy Linear 
 The engine executes an automated, four-stage data architecture to convert raw thermodynamic properties into real-world maritime arbitrage signals:
 
 [1. Market Ingestion] ---> [2. DWSIM Digital Twin] ---> [3. SciPy LP Engine] ---> [4. Power BI Dashboard]\
-  Live WTI/RBOB Data &nbsp; &nbsp; &nbsp; &nbsp; Thermodynamic States &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-Linear Blending &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CIF Margin Heatmaps\
-  via yfinance (Daily) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (RVP / RON Extraction) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; & Cosine RVP Waves &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DAX Volatility Models
+  Live WTI/RBOB Data &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Thermodynamic States &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-Linear Blending &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CIF Margin Heatmaps\
+  &nbsp;via yfinance (Daily) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (RVP / RON Extraction) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; & Cosine RVP Waves &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DAX Volatility Models
 
 1. Market Ingestion (price_fetcher.py): Programmatically extracts continuous daily historical commodity data for WTI Crude (CL=F) and RBOB Gasoline (RB=F) via the Yahoo Finance API, cleanly handling weekend exchange gaps using a forward-fill algorithm.
 2. Headless Process Simulation: Automates a DWSIM refinery flowsheet in the background via a Python interface. The engine applies Peng-Robinson thermodynamics and Petroleum Assay Characterization to dynamically compute physical properties (RVP and RON) for intermediate streams.
