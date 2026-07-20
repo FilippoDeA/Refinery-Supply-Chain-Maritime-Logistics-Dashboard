@@ -88,7 +88,7 @@ python price_fetcher.py
 
 ---
 
-## Commercail Insights Identified
+## Commercial Insights Identified
 
 * **The "Spring Squeeze" Phenomenon:** The model perfectly captures historical margin compressions in March/April. During these windows, macroeconomic crude spikes (such as the 2026 Strait of Hormuz crisis) frequently collide with the structural transition to low-RVP summer fuel, driving optimized blend costs vertically.
 * **Structural Global Arbitrage Dynamics:** Back-testing reveals highly realistic geographical market realities. Santos, Brazil acts as a structural high-margin import sink due to local refining deficits and low freight layout from the USGC, while Singapore acts as a highly consolidated regional refining hub where the USGC export window opens only during severe localized supply shocks.
